@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Expense Tracker</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <h1>Expense Tracker</h1>
+      <h4>Add a new item:</h4>
+
+      <form>
+        <div class="form-groups-container">
+          <div class="form-group">
+            <label for="paymentType">Type:</label>
+            <select name="paymentType" id="paymentType">
+              <option value="card">Card</option>
+              <option value="cash">Cash</option>
+              <option value="cryptoCoin">CryptoCoin</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="What did you spend on?" />
+          </div>
+
+          <div class="form-group">
+            <label for="date">Date:</label>
+            <input type="date" id="date" />
+          </div>
+
+          <div class="form-group">
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" placeholder="How much?" />
+          </div>
+        </div>
+        <button type="submit">Add a new expense</button>
+      </form>
+
+      <table>
+        <thead>
+          <tr>
+            <th width="8%">type</th>
+            <th>name</th>
+            <th width="20%">date</th>
+            <th width="16%">amount</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          <tr id="table-placeholder">
+            <td colspan="4">Your added items will show up here!</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

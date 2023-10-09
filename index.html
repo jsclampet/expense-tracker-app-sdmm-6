@@ -11,7 +11,7 @@
       <h1>Expense Tracker</h1>
       <h4>Add a new item:</h4>
 
-      <form>
+      <form action="#" name="expense-form">
         <div class="form-groups-container">
           <div class="form-group">
             <label for="paymentType">Type:</label>
@@ -25,20 +25,38 @@
 
           <div class="form-group">
             <label for="name">Name:</label>
-            <input type="text" id="name" placeholder="What did you spend on?" />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="What did you spend on?"
+              required
+              minlength="2"
+            />
           </div>
 
           <div class="form-group">
             <label for="date">Date:</label>
-            <input type="date" id="date" />
+            <input type="date" id="date" name="date" required />
           </div>
 
           <div class="form-group">
             <label for="amount">Amount:</label>
-            <input type="number" id="amount" placeholder="How much?" />
+            <input
+              type="number"
+              id="amount"
+              placeholder="How much?"
+              name="amount"
+              required
+            />
           </div>
         </div>
-        <button type="submit">Add a new expense</button>
+
+        <div class="error-message hidden" id="error">
+          <p><span>Please Complete Fill Out ALL Fields </span></p>
+        </div>
+
+        <button type="submit" id="add-button">Add a new expense</button>
       </form>
 
       <table>

@@ -99,13 +99,40 @@ thead th {
 
 tbody #table-placeholder td {
   padding: 15px;
+  text-align: center;
 }
 
 .expenses td{
   padding: 10px;
 }
 
+.expense-row {
+  padding: 5px 0;
+}
 
+
+
+.expense-row a {
+  text-decoration: none;
+}
+
+.close-icon {
+  color: white;
+  position: relative;
+  right: 40px;
+}
+
+.close-icon:hover {
+  color: #F9ECCC;
+  -webkit-box-shadow: -16px 0px 49px -22px rgba(255,255,255,1);
+  -moz-box-shadow: -16px 0px 49px -22px rgba(255,255,255,1);
+  box-shadow: -16px 0px 49px -22px rgba(255,255,255,1);
+}
+
+td {
+  text-align: left;
+  padding: 3px 6px;
+}
 
 /* Utility */
 .hidden {

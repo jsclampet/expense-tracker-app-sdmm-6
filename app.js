@@ -33,26 +33,11 @@ const months = [
   "December",
 ];
 
+const expensesArray = [];
+// { paymentIcon: paymentIcons[paymentType.value], expenseName: expenseName.value, data: reformattedDate()}
+
 const tablePlaceholder = document.getElementById("table-placeholder");
 const tableBody = document.getElementById("table-body");
-
-//
-//
-// DEMO / TESTING
-
-// const tableRowTest = document.createElement("tr");
-// tableRowTest.innerHTML = `
-//   <td>${paymentIcons.card}</td>
-//   <td>asdfasf</td>
-//   <td>${new Date()}</td>
-//   <td>1222</td>
-//   <button >❌</button>
-// `;
-// tableBody.append(tableRowTest);
-
-// DEMO / TESTING
-//
-//
 
 function onFormSubmit() {
   tablePlaceholder.classList.add("hidden");
@@ -68,6 +53,13 @@ function onFormSubmit() {
     <td>$${expenseAmount.value}</td>
   `;
   tableBody.append(tableRow);
+
+  expensesArray.push({
+    icon: paymentIcons[paymentType.value],
+    name: expenseName.value,
+    date: reformattedDate(),
+    amount: expenseAmount.value,
+  });
   // clear form input values
   expenseName.value = "";
   expenseDate.value = "";

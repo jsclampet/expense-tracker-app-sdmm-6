@@ -22,4 +22,3 @@ Having worked with React and TypeScript previously, I noticed the absence of typ
 ## Author
 - John Clampet: FullStack Software Developer
 - [LinkedIn](https://www.linkedin.com/in/john-clampet-264007122/)
-- ![image](https://github.com/jsclampet/expense-tracker-app-sdmm-6/assets/55774252/1ca8b1d9-4059-4e4a-9630-e973c501e286)

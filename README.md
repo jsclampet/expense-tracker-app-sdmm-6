@@ -15,5 +15,3 @@ I wanted to approach this project with a few goals in mind:
 
 To meet these goals, I explored different strategies. In specific instances, I favored function declarations over function expressions, leveraging hoisting to enhance code clarity and readability. Additionally, to retrieve Payment Type icons for each expense, I dynamically accessed values based on each <select> element with the corresponding key name.
 
-*However, there were some struggles along the way*
-

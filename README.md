@@ -17,8 +17,3 @@ To meet these goals, I explored different strategies. In specific instances, I f
 
 *However, there were some struggles along the way*
 
-Having worked with React and TypeScript previously, I noticed the absence of type safety in plain JavaScript. This created complications, leading to unexpected behavior in my code. However, I remained determined, refining my debugging and troubleshooting skills by breaking down the code into smaller segments to resolve issues more efficiently.
-
-## Author
-- John Clampet: FullStack Software Developer
-- [LinkedIn](https://www.linkedin.com/in/john-clampet-264007122/)

@@ -9,9 +9,9 @@ View it [here](https://expense-tracker-app-sdmm-6.pages.dev/)
 ## Summary
 I wanted to approach this project with a few goals in mind: 
 
--Make reusable functions
--Eliminate redundancy
--Clean Code
+- Make reusable functions
+- Eliminate redundancy
+- Clean Code
 
 To meet these goals, I explored different strategies. In specific instances, I favored function declarations over function expressions, leveraging hoisting to enhance code clarity and readability.
 

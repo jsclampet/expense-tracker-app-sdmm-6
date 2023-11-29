@@ -18,7 +18,7 @@ To meet these goals, I explored different strategies. In specific instances, I f
 
 *However, there were some struggles along the way*
 
-Having worked with React and Typescript previously, I noticed the absence of type safety in pain Javascript. This created complications, leading to unexpected behavior in my code. however, I remained determined, refining my debugging and troubleshooting skills by breaking down the code into smaller segments to resolve issues more efficiently.
+Having worked with React and Typescript previously, I noticed the absence of type safety in plain Javascript. This created complications, leading to unexpected behavior in my code. However, I remained determined, refining my debugging and troubleshooting skills by breaking down the code into smaller segments to resolve issues more efficiently.
 
 
 ## Author
